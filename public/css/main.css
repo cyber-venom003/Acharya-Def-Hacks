@@ -1,0 +1,9 @@
+body {
+    background: rgb(0,179,215);
+    background: linear-gradient(4deg, rgba(0,179,215,1) 0%, rgba(0,12,64,1) 100%);   
+}
+
+.input-form {
+    background-color: rgba(255, 255, 255,1);
+}
+
