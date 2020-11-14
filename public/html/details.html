@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Acharya Details</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
@@ -21,19 +21,27 @@
                     <form>
                         <div class="field">
                             <div class="control">
-                              <p class="subtitle is-5 has-text-black">You're joining Acharya as</p> 
-                              <div class="select is-info">
-                                <select>
-                                  <option>Student</option>
-                                  <option>Mentor</option>
-                                </select>
+                                <p class="subtitle is-5 has-text-black">You're joining Acharya as</p>
+                                <label class="radio">
+                                  <input type="radio" name="answer" value="student">
+                                  Student
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="answer" value="mentor">
+                                  Mentor
+                                </label>
                               </div>
-                            </div>
                         </div> 
                         <div class="field">
                             <div class="control">
                                 <p class="subtitle is-5 has-text-black">Tell about your education, study interests</p>
                                 <textarea class="textarea is-info" placeholder="Add your education, subjects you like etc"></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <p class="subtitle is-5 has-text-black">Please add your contact number for better communication</p>
+                                <input class="input is-rounded is-info" type="tel" placeholder="Contact Number">
                             </div>
                         </div>
                         <button class="button is-rounded is-link is-fullwidth">Continue to Dashboard</button>
